@@ -1,12 +1,11 @@
 import java.util.Scanner;
 public class Palindrome {
 
-		private boolean isPalindrome(String word) {
-
-			int x = 0;
-			int y = word.length() - 1;
-        	while (x < y) {
-        	if (word.charAt(x) != word.charAt(y)){
+	private boolean isPalindrome(String word) {
+		int x = 0;
+		int y = word.length() - 1;
+		while (x < y) {
+			if (word.charAt(x) != word.charAt(y)){
         		return false;}
         	x++;
             y--;
